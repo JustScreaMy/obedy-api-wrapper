@@ -1,0 +1,2 @@
+class InvalidPageTypeException(Exception):
+    pass
