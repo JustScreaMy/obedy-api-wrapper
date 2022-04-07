@@ -1,50 +1,147 @@
 {
-    "06.04.2022": [
-        "Bageta šunka a sýr 1 , 3 , 7",
-        "1ks Pochoutka tvarohová ,  1ks Cherry kapsa 1 , 3 , 7",
-        "Bageta chlebíčkový labužník 1 , 3 , 7",
-        "Špenátová polévka s bramborem 300g ,  hovězí  po cikánsku 182g ,  brambory vařené 250g ,  čaj ovocný 0 , 3l",
-        "Špenátová polévka s bramborem 300g ,  zeleninové rizoto se sýrem  300g ,  okurek  50g ,  ovocné pyré 100g ,  čaj ovocný 0 , 3l"
-    ],
-    "07.04.2022": [
-        "1ks Kapsa s nivou ,  1ks Kapsa s balkánským sýrem 1 , 3 , 7",
-        "1ks Kapsa jablkvá 200g ,  1ks Kobliha s ovocnou náplní 1 , 3 , 7",
-        "Bagera kuřecí gyros 1 , 3 , 7",
-        "Luštěninová polévka 300g ,  maminčino kuře  450g ,  ovocný nápoj 0 , 3l",
-        "Luštěninová polévka 300g ,  střapačky se zelím  300g ,  ovocný nápoj 0 , 3l"
-    ],
-    "08.04.2022": [
-        "Bageta hermelínová junior 1 , 3 , 7",
-        "1ks Americká kobliha plněná krémem ,  1ks Cherry kapsa 1 , 3 , 7",
-        "Bageta šunková XXL 1 , 3 , 7",
-        "Rajská s rýží  300g ,  záhorácký závitek 180g ,  brambory šťouchané 250g ,  čaj ovocný 0 , 3l",
-        "Rajská s rýží  300g ,  dušená mrkev s hráškem 150g ,  brambory vařené 250g ,  vařená vejce   2ks ,  čaj ovocný 0 , 3l"
-    ],
-    "11.04.2022": [
-        "Bageta šunka a sýr 1 , 3 , 7",
-        "1ks Kobliha s náplní ovocnou ,  1ks Kobliha kakaooříšková ,  1ks Smaženka s kousky jablek 1 , 3 , 7",
-        "Bageta kuřecí popcorn 1 , 3 , 7",
-        "Zeleninová polévka s kroupama 300g ,  smažený  kuřecí řízek 120g ,  bramborová kaše 250g ,  ovocný nápoj 0 , 3l",
-        "Zeleninová polévka s kroupama 300g ,  těstovinový salát s tuňákem  350g ,  ovocný nápoj 0 , 3l"
-    ],
-    "12.04.2022": [
-        "Bageta kuřecí junior 1 , 3 , 7",
-        "1ks Šáteček tvarohový ,  1ks Loupák ,  1ks Šnek skořicový 1 , 3 , 7",
-        "Bageta šunková speciál 1 , 3 , 7",
-        "Cizrno-brokolicová  polévka 300g ,  hovězí guláš oregano  230g ,  těstoviny  200g ,  čaj ledový  0 , 3l ,  nápoj s mlékem 0 , 2l",
-        "Cizrno-brokolicová  polévka 300g ,  křenová omáčka  150g ,  brambory vařené 250g ,  vařená vejce   2ks ,  čaj ledový  0 , 3l ,  nápoj s mlékem 0 , 2l"
-    ],
-    "13.04.2022": [
-        "Bageta hermelínová junior 1 , 3 , 7",
-        "1ks Kapsa jablková 100g ,  1ks Cherry kapsa 1 , 3 , 7",
-        "Bageta strips pikantní 1 , 3 , 7",
-        "Slepičí polévka s těstovinou   300g ,  krůtí nudličky na celeru 260g ,  dušená rýže  200g ,  čaj ovocný 0 , 3l",
-        "Slepičí polévka s těstovinou   300g ,  japonské rybí filé   270g ,  brambory vařené 250g ,  čaj ovocný 0 , 3l"
-    ],
-    "14.04.2022": [
-        "Velikonoční prázdniny"
-    ],
-    "15.04.2022": [
-        "Velikonoční svátek"
+    "days": [
+        {
+            "day": "07.04.2022",
+            "foods": [
+                {
+                    "name": "1ks Kapsa s nivou ,  1ks Kapsa s balkánským sýrem 1 , 3 , 7",
+                    "api_uri": "db/dbProcessOrder.jsp?time=1649345209885&token=1xUWHXY1FCMI79uSOKIEpEWtfmc9HZB1NY%2BiDBnWcPE%3D&ID=3495783&day=2022-04-07&type=none&week=&terminal=false&keyboard=false&printer=false"
+                },
+                {
+                    "name": "1ks Kapsa jablkvá 200g ,  1ks Kobliha s ovocnou náplní 1 , 3 , 7",
+                    "api_uri": "db/dbProcessOrder.jsp?time=1649345209885&token=4%2BQ5lXMhW%2BGTa41mrXV7wNCLHik64FNdFzy3LEn5U0I%3D&ID=2&day=2022-04-07&type=none&week=&terminal=false&keyboard=false&printer=false"
+                },
+                {
+                    "name": "Bagera kuřecí gyros 1 , 3 , 7",
+                    "api_uri": "db/dbProcessOrder.jsp?time=1649345209885&token=9SVM01ZL2%2FWdQAPLTnzpsxhHiqHi3kB%2BW1SKYI0qodk%3D&ID=5&day=2022-04-07&type=none&week=&terminal=false&keyboard=false&printer=false"
+                },
+                {
+                    "name": "Luštěninová polévka 300g ,  maminčino kuře  450g ,  ovocný nápoj 0 , 3l",
+                    "api_uri": "db/dbProcessOrder.jsp?time=1649345209885&token=L%2F3nbjuJtKkEqXuN%2BCUXrI%2BgnOx00EvfaSvgSlYxYT8%3D&ID=3&day=2022-04-07&type=none&week=&terminal=false&keyboard=false&printer=false"
+                },
+                {
+                    "name": "Luštěninová polévka 300g ,  střapačky se zelím  300g ,  ovocný nápoj 0 , 3l",
+                    "api_uri": "db/dbProcessOrder.jsp?time=1649345209885&token=rJMqmjJYArr88e0kzgmAQva8o%2BnAOEvuNbfRLVIfsOo%3D&ID=3495719&day=2022-04-07&type=none&week=&terminal=false&keyboard=false&printer=false"
+                }
+            ]
+        },
+        {
+            "day": "08.04.2022",
+            "foods": [
+                {
+                    "name": "Bageta hermelínová junior 1 , 3 , 7",
+                    "api_uri": "db/dbProcessOrder.jsp?time=1649345209885&token=kcMO%2FDAWMKbasyV0wxT324IaLEfn45pdbeWDzphKF50%3D&ID=1&day=2022-04-08&type=none&week=&terminal=false&keyboard=false&printer=false"
+                },
+                {
+                    "name": "1ks Americká kobliha plněná krémem ,  1ks Cherry kapsa 1 , 3 , 7",
+                    "api_uri": "db/dbProcessOrder.jsp?time=1649345209885&token=v5LE%2BoYKQvsKsGibz%2BwBeMecHj6MujVZ1Vzw0VggSxM%3D&ID=3495720&day=2022-04-08&type=none&week=&terminal=false&keyboard=false&printer=false"
+                },
+                {
+                    "name": "Bageta šunková XXL 1 , 3 , 7",
+                    "api_uri": "db/dbProcessOrder.jsp?time=1649345209885&token=%2BbPiaPPZLMTU%2Bg04EcxEu7xxZRmjdbz6j40qlaBOHTM%3D&ID=5&day=2022-04-08&type=none&week=&terminal=false&keyboard=false&printer=false"
+                },
+                {
+                    "name": "Rajská s rýží  300g ,  záhorácký závitek 180g ,  brambory šťouchané 250g ,  čaj ovocný 0 , 3l",
+                    "api_uri": "db/dbProcessOrder.jsp?time=1649345209885&token=Y66KtJWxwr5cGFRoZXR4kAL2njZC1kstjE9fSeCYGRs%3D&ID=3&day=2022-04-08&type=none&week=&terminal=false&keyboard=false&printer=false"
+                },
+                {
+                    "name": "Rajská s rýží  300g ,  dušená mrkev s hráškem 150g ,  brambory vařené 250g ,  vařená vejce   2ks ,  čaj ovocný 0 , 3l",
+                    "api_uri": "db/dbProcessOrder.jsp?time=1649345209885&token=ccxs5vq9hrdT4YIDeSv%2BuSjvqtk6JTNGCZ4ARHvrpbs%3D&ID=3495721&day=2022-04-08&type=none&week=&terminal=false&keyboard=false&printer=false"
+                }
+            ]
+        },
+        {
+            "day": "11.04.2022",
+            "foods": [
+                {
+                    "name": "Bageta šunka a sýr 1 , 3 , 7",
+                    "api_uri": "db/dbProcessOrder.jsp?time=1649345209885&token=nZbZca8w2ymye%2BzO%2BctZ6rfRFUN1fIBADVoNxlrFN8g%3D&ID=1&day=2022-04-11&type=make&week=&terminal=false&keyboard=false&printer=false"
+                },
+                {
+                    "name": "1ks Kobliha s náplní ovocnou ,  1ks Kobliha kakaooříšková ,  1ks Smaženka s kousky jablek 1 , 3 , 7",
+                    "api_uri": "db/dbProcessOrder.jsp?time=1649345209885&token=IHfl0yZoRs%2F%2BSlNDNuTQwXmP1twmN5szS46LOACG5Lw%3D&ID=2&day=2022-04-11&type=make&week=&terminal=false&keyboard=false&printer=false"
+                },
+                {
+                    "name": "Bageta kuřecí popcorn 1 , 3 , 7",
+                    "api_uri": "db/dbProcessOrder.jsp?time=1649345209885&token=UwHB%2B5AW44lJ11mIMci%2BwOnXJ6yOLLKm8nKhHGhnvOg%3D&ID=5&day=2022-04-11&type=make&week=&terminal=false&keyboard=false&printer=false"
+                },
+                {
+                    "name": "Zeleninová polévka s kroupama 300g ,  smažený  kuřecí řízek 120g ,  bramborová kaše 250g ,  ovocný nápoj 0 , 3l",
+                    "api_uri": "db/dbProcessOrder.jsp?time=1649345209885&token=ulbPf2xfjVyiyKFkQ6uRho9kL6ipBIKNsDx%2Fdopqu8w%3D&ID=3&day=2022-04-11&type=make&week=&terminal=false&keyboard=false&printer=false"
+                },
+                {
+                    "name": "Zeleninová polévka s kroupama 300g ,  těstovinový salát s tuňákem  350g ,  ovocný nápoj 0 , 3l",
+                    "api_uri": "db/dbProcessOrder.jsp?time=1649345209885&token=f9nydcYOO%2FQdzkGP3LnfB1EJoxXo8uu1yotqP%2Bu%2BCoE%3D&ID=4&day=2022-04-11&type=make&week=&terminal=false&keyboard=false&printer=false"
+                }
+            ]
+        },
+        {
+            "day": "12.04.2022",
+            "foods": [
+                {
+                    "name": "Bageta kuřecí junior 1 , 3 , 7",
+                    "api_uri": "db/dbProcessOrder.jsp?time=1649345209885&token=Gde%2Bx5Sck71YLPgaUB1YiEM1xof4jvcoL7znurrP%2Bgc%3D&ID=1&day=2022-04-12&type=reorder&week=&terminal=false&keyboard=false&printer=false"
+                },
+                {
+                    "name": "1ks Šáteček tvarohový ,  1ks Loupák ,  1ks Šnek skořicový 1 , 3 , 7",
+                    "api_uri": "db/dbProcessOrder.jsp?time=1649345209885&token=XyRgLJk2Y7eH3Ws2y0cJXD0EQy5VuuO5QYsON%2Ffw3Rw%3D&ID=3497629&day=2022-04-12&type=delete&week=&terminal=false&keyboard=false&printer=false"
+                },
+                {
+                    "name": "Bageta šunková speciál 1 , 3 , 7",
+                    "api_uri": "db/dbProcessOrder.jsp?time=1649345209885&token=bGcqYKUnywD8597LECFf4WUoRmSiXQbmTrAlGVIiokg%3D&ID=5&day=2022-04-12&type=reorder&week=&terminal=false&keyboard=false&printer=false"
+                },
+                {
+                    "name": "Cizrno-brokolicová  polévka 300g ,  hovězí guláš oregano  230g ,  těstoviny  200g ,  čaj ledový  0 , 3l ,  nápoj s mlékem 0 , 2l",
+                    "api_uri": "db/dbProcessOrder.jsp?time=1649345209885&token=5XSfbZH7fMwfZMZpgp47oIZRugQiojrAGm%2BWoKTd5Xk%3D&ID=3497628&day=2022-04-12&type=delete&week=&terminal=false&keyboard=false&printer=false"
+                },
+                {
+                    "name": "Cizrno-brokolicová  polévka 300g ,  křenová omáčka  150g ,  brambory vařené 250g ,  vařená vejce   2ks ,  čaj ledový  0 , 3l ,  nápoj s mlékem 0 , 2l",
+                    "api_uri": "db/dbProcessOrder.jsp?time=1649345209885&token=AB%2FEbp87D9YbvYOU62tZ8G9UKcPbZ0BupBg%2BTOR7lU4%3D&ID=4&day=2022-04-12&type=reorder&week=&terminal=false&keyboard=false&printer=false"
+                }
+            ]
+        },
+        {
+            "day": "13.04.2022",
+            "foods": [
+                {
+                    "name": "Bageta hermelínová junior 1 , 3 , 7",
+                    "api_uri": "db/dbProcessOrder.jsp?time=1649345209885&token=2hE20tf%2BkKyP85PHEXR9vt%2F6c1LRw2naLFHb5lltu1w%3D&ID=1&day=2022-04-13&type=reorder&week=&terminal=false&keyboard=false&printer=false"
+                },
+                {
+                    "name": "1ks Kapsa jablková 100g ,  1ks Cherry kapsa 1 , 3 , 7",
+                    "api_uri": "db/dbProcessOrder.jsp?time=1649345209885&token=mkN99tCzGBLB0%2FdSZmsN8kLQ3O7kaTsOyB5ICw6rcGU%3D&ID=2&day=2022-04-13&type=reorder&week=&terminal=false&keyboard=false&printer=false"
+                },
+                {
+                    "name": "Bageta strips pikantní 1 , 3 , 7",
+                    "api_uri": "db/dbProcessOrder.jsp?time=1649345209885&token=%2FSwUovYdrFGsILb0KAXfdEJ0gt%2Bu8xKVtryepVMTtvg%3D&ID=3497630&day=2022-04-13&type=delete&week=&terminal=false&keyboard=false&printer=false"
+                },
+                {
+                    "name": "Slepičí polévka s těstovinou   300g ,  krůtí nudličky na celeru 260g ,  dušená rýže  200g ,  čaj ovocný 0 , 3l",
+                    "api_uri": "db/dbProcessOrder.jsp?time=1649345209885&token=8W1l1W3ogmmPVrSnbP2CX5AFUj1kpbLahig7FJr0kVU%3D&ID=3&day=2022-04-13&type=make&week=&terminal=false&keyboard=false&printer=false"
+                },
+                {
+                    "name": "Slepičí polévka s těstovinou   300g ,  japonské rybí filé   270g ,  brambory vařené 250g ,  čaj ovocný 0 , 3l",
+                    "api_uri": "db/dbProcessOrder.jsp?time=1649345209885&token=a137CYXewe5lTktm7XBcVPaEfOGq26L%2Fu6MaeL6W6Pg%3D&ID=4&day=2022-04-13&type=make&week=&terminal=false&keyboard=false&printer=false"
+                }
+            ]
+        },
+        {
+            "day": "14.04.2022",
+            "foods": [
+                {
+                    "name": "Velikonoční prázdniny",
+                    "api_uri": "db/dbProcessOrder.jsp?time=1649345209885&token=YEaA8BVXOL1X6%2FBH%2FzlxPt2rXl6EoZJBOTeSA6NpJPM%3D&ID=3&day=2022-04-14&type=make&week=&terminal=false&keyboard=false&printer=false"
+                }
+            ]
+        },
+        {
+            "day": "15.04.2022",
+            "foods": [
+                {
+                    "name": "Velikonoční svátek",
+                    "api_uri": "db/dbProcessOrder.jsp?time=1649345209885&token=jT95Cwp01MIUj%2FJ0sjmKi9wN7gwU0lPU3Suzsd4eqmE%3D&ID=3&day=2022-04-15&type=make&week=&terminal=false&keyboard=false&printer=false"
+                }
+            ]
+        }
     ]
 }

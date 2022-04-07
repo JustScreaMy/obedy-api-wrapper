@@ -14,15 +14,17 @@ class APIClient:
     _paser: Parser
 
     _pages: dict = {
-        'food': '/faces/secured/month.jsp',
-        'burza': '/faces/secured/burza.jsp',
-        'platby': '/faces/secured/platby.jsp',
-        'objednavky': '/faces/secured/objednavky.jsp',
-        'historie': '/faces/secured/historie.jsp'
+        'food': 'faces/secured/month.jsp',
+        'burza': 'faces/secured/burza.jsp',
+        'platby': 'faces/secured/platby.jsp',
+        'objednavky': 'faces/secured/objednavky.jsp',
+        'historie': 'faces/secured/historie.jsp'
     }
 
     def __init__(self, url: str, username: str, password: str):
         self._session = requests.Session()
+        if not url.endswith('/'):
+            url += '/'
         self._base_url = url
         self._username = username
         self._password = password
@@ -34,16 +36,16 @@ class APIClient:
 
     @property
     def _login_url(self):
-        return self._base_url + "/j_spring_security_check"
+        return self._base_url + "j_spring_security_check"
 
     @property
     def _logout_url(self):
-        return self._base_url + "/logout"
+        return self._base_url + "logout"
 
     def login(self):
         token = self.get_token()
         res = self._session.post(self._login_url, data={
-            'targetUrl': '/faces/secured/main.jsp',
+            'targetUrl': 'faces/secured/main.jsp',
             'j_username': self._username,
             'j_password': self._password,
             '_csrf': token,
